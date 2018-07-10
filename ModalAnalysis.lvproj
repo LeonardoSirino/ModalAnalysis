@@ -217,6 +217,47 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Análise Modal" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D65035D6-B480-4BC4-8703-CC4B2C65E3C4}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{782F3F9E-9CF6-42F9-978A-51E0C646A758}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9081EA95-1C25-4C19-9387-0FB615E7EF12}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Software para ensaios de análise modal</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Análise Modal</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Análise Modal</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{17A2D596-228A-44FA-8C71-4004583C4E1A}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">AnaliseModal.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Análise Modal/AnaliseModal.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Análise Modal/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{785E0A08-C9EC-4691-B5AD-19ACD75A98A1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Code/Acquisition.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Lactec</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Análise Modal</Property>
+				<Property Name="TgtF_internalName" Type="Str">Análise Modal</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
+				<Property Name="TgtF_productName" Type="Str">Análise Modal</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9EC99EA2-0065-4E47-B4A3-4CDEB2DD5259}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">AnaliseModal.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
